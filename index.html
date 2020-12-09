@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signin/Signup</title>
+</head>
+<div class="container" id="container">
+	<div class="form-container admin-container">
+		<form action="#">
+			<h1>Admin Account</h1>
+			<!--<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>Use your email for login</span>-->
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign in</button>
+		</form>
+	</div>
+	<div class="form-container user-container">
+		<form action="#">
+			<h1>User Account</h1>
+			<!--<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>User account</span>-->
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Hello, School user</h1>
+				<p>You can login here</p>
+				<button class="ghost" id="user">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, admin</h1>
+				<p>You can login here</p>
+				<button class="ghost" id="admin">Sign In</button>
+			</div>
+		</div>
+    </div>
+</div>
+<div class='signup'>
+    <h3>If you are a new user you can sign up here</h3>
+    <button class="ghost"><a href="signup.html">sign up</a></button>
+
+</div>
+<script src="main.js"></script>
+</html>
