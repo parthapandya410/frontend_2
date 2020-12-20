@@ -4,18 +4,30 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
     <title>Signin/Signup</title>
 </head>
+<body>
+	<header>
+		<h1><b> Welcome to the GRASS !!</b></h1>
+	</header>
+	<section class="list">
+		<a href="" class="menu"> Home </a>
+		<a href="about.html" class="menu"> About </a>
+		<a href="contact.html" class="menu"> Contact us </a>
+		<a href="register.html" class="menu"> Career</a>
+	</section>
 <div class="container" id="container">
 	<div class="form-container admin-container">
 		<form action="#">
-			<h1>Admin Account</h1>
-			<input type="text" placeholder="Name" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<button>Sign in</button>
+			<h1>Govt Officials</h1>
+			<!--<input type="text" placeholder="Name" />-->
+			<!---<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />--->
+			<br>
+			<button><a href="Govt.html">Go to Login</a></button>
 		</form>
 	</div>
 	<div class="form-container user-container">
@@ -35,7 +47,7 @@
 				<button class="ghost" id="user">Sign In</button>
 			</div>
 			<div class="overlay-panel overlay-right">
-				<h1>Hello, admin</h1>
+				<h1>Hello, Govt Officials</h1>
 				<p>You can login here</p>
 				<button class="ghost" id="admin">Sign In</button>
 			</div>
@@ -45,7 +57,7 @@
 <div class='signup'>
     <h3>If you are a new user you can sign up here</h3>
     <button class="ghost"><a href="signup.html">sign up</a></button>
-
 </div>
 <script src="main.js"></script>
+</body>
 </html>
