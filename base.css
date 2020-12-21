@@ -24,11 +24,12 @@ header{
 .list{
     display: block;
     margin: 3px 3px;
+    margin-bottom: 1px;
     font-size: large;
     /*padding: 1rem 1rem 1rem 0;*/
-    background: rgba(0, 0, 0, 0.5);
+    /*background: rgba(0, 0, 0, 0.5);
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: row;*/
 }
 .menu{
     margin: 2px;
