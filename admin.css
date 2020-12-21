@@ -1,0 +1,20 @@
+.CRUD{
+    margin: 10px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    background: #f9f7cf;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.crud_btn{
+    padding: 30px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.crud_btn:hover{
+    background-color: white;
+}
