@@ -39,3 +39,12 @@
 #login{
     float: right;
 }
+
+.acc_hr{
+    border: dotted 10px #ffd66b;
+    width: 10%;
+    height: 0px;
+    border-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
