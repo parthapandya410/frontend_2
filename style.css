@@ -89,6 +89,11 @@ input {
 	width: 100%;
 }
 
+.div_sec{
+	margin: auto;
+	padding: 25px;
+}
+
 .container {
 	margin: auto;
 	background-color: #fff;
