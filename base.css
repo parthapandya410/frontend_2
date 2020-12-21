@@ -23,9 +23,8 @@ header{
 }
 .list{
     display: block;
-    margin: 3px 3px;
-    margin-bottom: 1px;
-    font-size: large;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
     /*padding: 1rem 1rem 1rem 0;*/
     /*background: rgba(0, 0, 0, 0.5);
     justify-content: flex-start;
@@ -34,13 +33,13 @@ header{
 .menu{
     margin: 2px;
     padding: 2px;
-    color: aqua;
+    color: white;
 }
 .menu:hover{
     /*border: 1px solid white;
     border-radius: 5px;*/
     background: white;
-    /*font-size: 105%;*/
+    font-weight: bold;
     color: black;
 }
 .back{
@@ -55,4 +54,51 @@ header{
     background: white;
     /*font-size: 105%;*/
     color: black;
+}
+
+.subhead{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+hr{
+    border: dotted 10px #ff8585;
+    width: 10%;
+    height: 0px;
+    border-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.subhead_div{
+    margin: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: dotted darkcyan;
+}
+
+.logout{
+    float: right;
+    font-size: medium; 
+    border-radius: 5px;
+}
+.logout:hover{
+    background-color: white;
+    font-size: 115%;
+}
+
+.crud_btn{
+    padding: 30px;
+    margin: 5px;
+    margin-bottom: 20px;
+    background-color: #dff3e3;
+    color: black;
+    font-size: large;
+}
+
+.crud_btn:hover{
+    background-color: #adce74;
+    color: white;
 }
