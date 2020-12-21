@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="accountant.css">
+    <title>Accountant</title>
+</head>
+<body>
+	<header>
+		<h1><b> Welcome Accountant</b></h1>
+    </header>
+	<section class="list">
+		<a href="#va" class="menu"> View application </a>
+		<a href="#id" class="menu"> installment requests </a>
+		<a href="#sa" class="menu"> Conduct Audit </a>
+        <a href="#bgt" class="menu"> Budget </a>
+        <a href="index.html" class="menu" id="login">Logout</a>
+    </section>
+    <section>
+        <h4 class="subhead"> Dashboard </h4>
+    </section>
+    <hr>
+    <div class="subhead_div">Action on Application</div>
+    <section class="acc_action">
+        <div class="acc_info">
+            <p class="acc_desc" id="va">
+                You can take action on application from here.
+                you can accept or reject application and after that you can 
+                decide installments for the phasewise allocation but only after accepting application.
+            </p>
+        </div>
+        <div class="acc_btn">
+            <button class="crud_btn" onclick="">View Application</button>
+        </div>
+    </section>
+    <hr>
+    <div class="subhead_div">Installment Demands</div>
+    <section class="acc_action">
+        <div class="acc_btn" id="acc_btn_right">
+            <button class="crud_btn" onclick="">view Demands</button>
+        </div>
+        <div class="acc_info">
+            <p class="acc_desc" id="id">
+                When school raises a flag for the next installment of the grant you will be able to see that here.
+                you will be able to see expenses made by school in previous 
+                installment in here as part of phase audit.
+            </p>
+        </div>
+    </section>
+    <hr>
+    <div class="subhead_div">Surprise Audit</div>
+    <section class="acc_action">
+        <div class="acc_info">
+            <p class="acc_desc" id="sa">
+                You can see the expenses updated by the school for 
+                the ongoing phase as well as the previous phases.
+            </p>
+        </div>
+        <div class="acc_btn" >
+            <button class="crud_btn" onclick="">Audit</button>
+        </div>
+    </section>
+    <hr>
+    <div class="subhead_div">Budget</div>
+    <section class="acc_action">
+        <div class="acc_btn" id="acc_btn_right">
+            <button class="crud_btn" onclick="">Budget</button>
+        </div>
+        <div class="acc_info">
+            <p class="acc_desc" id="bgt">
+                Here You can have the total overview of the finance.
+                you can access allocated budget by centrel autority 
+                as well as remaining budget. 
+            </p>
+        </div>
+    </section>
+    
