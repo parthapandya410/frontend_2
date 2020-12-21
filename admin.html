@@ -8,24 +8,41 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="admin.css">
-    <title>School User</title>
+    <title>Grant Officer</title>
 </head>
 <body>
 	<header>
 		<h1><b> Welcome Admin !!</b></h1>
-	</header>
+    </header>
+    <div class="logout">
+        <a href="index.html">Logout</a>
+    </div>
 	<section class="list">
-		<a href="index.html" class="menu"> Home </a>
+		<!--<a href="index.html" class="menu"> Home </a>
 		<a href="about.html" class="menu"> About </a>
 		<a href="contact.html" class="menu"> Contact us </a>
-        <a href="register.html" class="menu"> Career</a>
+        <a href="register.html" class="menu"> Career</a>-->
+        <h4 class="subhead"> Dashboard </h4>
     </section>
+    <hr>
+    <div class="subhead_div">Management of Grants</div>
     <section class="CRUD">
-        <button class="crud_btn"><a href="#">Create Grant</a></button>
-        <button class="crud_btn"><a href="#">Delete Grant</a></button>
-        <button class="crud_btn"><a href="#">Update Grant</a></button>
-        <button class="crud_btn"><a href="#">View Grant</a></button>
+        <button class="crud_btn" onclick="">Create Grant</button>
+        <button class="crud_btn" onclick="">Delete Grant</button>
+        <button class="crud_btn" onclick="">Update Grant</button>
+        <button class="crud_btn" onclick="">View Grant</button>
     </section>
+    <hr>
+    <div class="subhead_div">Verification of Grant Request</div>
     <section class="school_fun">
-          
+        <div class="btn_container">
+            <div class="btn_container_left">
+                <button class="crud_btn" onclick="">Verify</button>
+                <button class="crud_btn" onclick="">Verify special Quota</button>
+            </div>
+            <div class="btn_container_right">
+                <button class="crud_btn" onclick="">View Verified Grants</button>
+                <button class="crud_btn" onclick="">Verify school</button>
+            </div>
+        </div>
     </section>
