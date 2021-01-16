@@ -35,11 +35,6 @@
 .crud_btn{
     margin: 15px;
 }
-
-#login{
-    float: right;
-}
-
 .acc_hr{
     border: dotted 10px #ffd66b;
     width: 10%;
