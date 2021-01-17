@@ -17,34 +17,28 @@
     </header>
     <a href="index.html" class="back"> Back </a>
     <section class="signup_container">
-        <form id="signup_post" class="signup_post">
+        <form id="G_signup_post" class="signup_post">
             <div class="attr_container_ut">
             <label for="user_type">User Type:</label> 
-            <select id="dd" onchange="myfun"> 
-                <option value="Select" selected="selected">select</option>
-                <option value="School_User">School User</option>
-                <option value="Grant_Officer">Grant_Officer </option>
-                <option value="Accountant">Accountant</option>
+            <select class="dd">
+                <option value="Select" selected="selected">Grant_Officer</option>
             </select>
             </div>
             <div class="attr_container">
                 <div class="attr">
-                    <input type="text" id="name" placeholder="School_name">
+                    <input type="text" id="G_Id" placeholder="Govt_ID">
                 </div>
                 <div class="attr">
-                    <input type="text" id="add" placeholder="School_address">
+                    <input type="number" id="G_name" placeholder="Name">
                 </div>
                 <div class="attr">
-                    <input type="number" id="regno" placeholder="School_reg_no">
+                    <input type="email" id="G_email" placeholder="email_id">
                 </div>
                 <div class="attr">
-                    <input type="email" id="email" placeholder="School_email">
+                    <input type="password" id="G_pass" placeholder="Password">
                 </div>
                 <div class="attr">
-                    <input type="password" id="pass" placeholder="Password">
-                </div>
-                <div class="attr">
-                    <input type="password" id="repass" placeholder="Retype_Password">
+                    <input type="password" id="G_repass" placeholder="Retype_Password">
                 </div>
                 <div>
                     <button type="submit">Submit</button>
@@ -52,7 +46,6 @@
             </div>
         </form>
     </section>
-    <script src="dropdown.js"></script>
 </body>
 </html>
     
