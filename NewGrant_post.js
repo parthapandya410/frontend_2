@@ -1,24 +1,21 @@
-
-    // SUBMIT FORM
-    var formData;
-    $("#signup_post").submit(function(event) {
+var formData;
+    $("#new_grant_post").submit(function(event) {
         // Prevent the form from submitting via the browser.
         event.preventDefault();
         ajaxPost();
     });
 
-    function ajaxPost() {
+function ajaxPost() {
 
         // PREPARE FORM DATA
         formData = {
-            username : $("#name").val(),
-            email : $("#email").val(),
-            password : $("#password").val(),
-            role : $("#role").val(),
-            unique_id : $("#reg_no").val(),
-            address : $("#address").val(),
+            name : $("#school_name").val(),
+            unique_id : $("#unique_id").val(),
+            amount : $("#amount").val(),
+            subject : $("#subject").val(),
+            verify : 0
            // repass : $("repass").val()
-        }; 
+        };
 
         console.log(formData);
 
@@ -31,7 +28,7 @@
         $.ajax({
             type : "POST",
             contentType : "application/json",
-            url : "/School",
+            url : "/School/grant",
             data : json,
             //dataType : 'json',
             error : function(e) {
@@ -41,4 +38,3 @@
         });
 
     }
-

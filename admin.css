@@ -6,7 +6,8 @@
     margin-top: 25px;
     display: flex;
     flex-direction: row;
-    background: #f9f7cf;
+    /*background: #ffa5a5;*/
+    background: #10a1e0;
     padding: 25px;
     border-radius: 10px;
     width: 50%;
@@ -32,7 +33,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: #f9f7cf;
+    /*background: #f9f7cf;*/
+    background: #10a1e0;
     padding: 25px;
     border-radius: 10px;
     width: 60%;

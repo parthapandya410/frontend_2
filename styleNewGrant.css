@@ -143,10 +143,10 @@ input{
 .container{
     width: 60%;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 25%;
+    top: 35%;
     transform: translate(-50%,-50%);
-    height: 95vh;
+    height: 70vh;
     background-color: #f8f9fb;
     display: inline flex;
     box-shadow: 5px 10px 38px rgba(0,0,0,0.2);

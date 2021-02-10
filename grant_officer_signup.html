@@ -13,32 +13,49 @@
 </head>
 <body>
 	<header>
-		<h1><b> Sign Up </b></h1>
+        <!--<h1><b> Welcome School Admin </b></h1>-->
+        <div class='logo'>
+            <img src="images.jpg" alt="grass"class='logo-img'>
+        </div>
+        <div><h1 class="logo-text">GRASS</h1></div>
+        <div class='logo-right'>
+            <h1 class="dash-title">Signup</h1>
+        </div>
     </header>
-    <a href="index.html" class="back"> Back </a>
+    <section class="list" id='admin_menu'>
+        <a href="index.html" class="menu"> School-Login </a>
+        <a href="Govt.html" class="menu">Govt-Login</a>
+        <a href="signup.html" class="menu-right">BACK</a>
+    </section>
     <section class="signup_container">
         <form id="G_signup_post" class="signup_post">
-            <div class="attr_container_ut">
-            <label for="user_type">User Type:</label> 
-            <select class="dd">
-                <option value="Select" selected="selected">Grant_Officer</option>
-            </select>
+            <div class="attr-container">
+                <h2> Govt Officials login </h2>
             </div>
+            <!--<div class="attr_container_ut">
+            <label for="user_type">User Type:</label> 
+            <!--<select id="dd" onchange="window.location.href = this.value">
+                <option value="Select">select</option>
+                <option value="signup.html">School User</option>
+                <option value="grant_officer_signup.html" selected="selected">Grant_Officer </option>
+                <option value="acc_signup.html">Accountant</option>
+            </select>
+            </div>-->
             <div class="attr_container">
                 <div class="attr">
-                    <input type="text" id="G_Id" placeholder="Govt_ID">
+                    <input type="text" id="username" placeholder="Name">
                 </div>
                 <div class="attr">
-                    <input type="number" id="G_name" placeholder="Name">
-                </div>
-                <div class="attr">
-                    <input type="email" id="G_email" placeholder="email_id">
+                    <input type="email" id="G_email" placeholder="email">
                 </div>
                 <div class="attr">
                     <input type="password" id="G_pass" placeholder="Password">
                 </div>
                 <div class="attr">
-                    <input type="password" id="G_repass" placeholder="Retype_Password">
+                    <input type="text" id="G_role" placeholder="Role">
+                </div>
+                <div class="attr">
+                    <input type="number" id="unique_id" placeholder="GOVT ID">
                 </div>
                 <div>
                     <button type="submit">Submit</button>
@@ -46,6 +63,22 @@
             </div>
         </form>
     </section>
+    <footer>
+        <!--<h1><b> Welcome School Admin </b></h1>-->
+        <div class='logo'>
+            <img src="images.jpg" alt="grass"class='logo-img'>
+        </div>
+        <div><h1 class="logo-text1">GRANT ALLOTMENT SYSTEM FOR SCHOOLS</h1></div>
+        <div class='logo-right'>
+            <a href="mailto:h20200283@pilani.bits-pilani.ac.in"><b>h20200283@pilani.bits-pilani.ac.in</b></a><br>
+            <a href="mailto:h20200274@pilani.bits-pilani.ac.in"><b> h20200274@pilani.bits-pilani.ac.in</b></a><br>
+            <a href="mailto:h20200287@pilani.bits-pilani.ac.in"><b> h20200287@pilani.bits-pilani.ac.in</b></a><br>
+            <a href="mailto:h20200292@pilani.bits-pilani.ac.in"><b>h20200292@pilani.bits-pilani.ac.in</b> </a><br>
+            <a href="mailto:h20200387@pilani.bits-pilani.ac.in"><b>h20200387@pilani.bits-pilani.ac.in</b> </a><br>
+            <a href="mailto:h20200272@pilani.bits-pilani.ac.in"><b>h20200272@pilani.bits-pilani.ac.in</b></a>
+        </div>
+    </footer>
+    <script src="g_signup_post.js"></script>
 </body>
 </html>
     

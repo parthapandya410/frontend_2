@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
+	margin: 0;
 	background: #f6f5f7;
 	display: block;
 	/*justify-content: center;
@@ -39,8 +40,8 @@ a {
 button {
 	border-radius: 20px;
 	border: 2px solid #214252;
-	/*background-color: #f05454;*/
-	background-color: #9ad3bc;
+	background-color: #f05454;
+	/*background-color: #9ad3bc;*/
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -64,6 +65,12 @@ button.ghost {
 	background-color: #fcf1f1;
     border-color: black;
     color: black;
+}
+#yellow_btn{
+	background-color: #fc8403;
+}
+#green_btn{
+	background-color: green;
 }
 .signup{
     margin-top: 15px;
@@ -170,8 +177,11 @@ input {
 	/*background: #FF416C;*/
 	background: #eff8ff;
 	/*background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);*/
-	background: -webkit-linear-gradient(to right, #8ad7c1, #98acf8);
-	background: linear-gradient(to right, #8ad7c1, #98acf8);
+	/*background: -webkit-linear-gradient(to right, #8ad7c1, #98acf8);
+	background: linear-gradient(to right, #8ad7c1, #98acf8);*/
+	/*background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);*/
+	background: -webkit-linear-gradient(to right, white, green);
+	background: linear-gradient(to right, white , green);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -185,7 +195,10 @@ input {
 }
 
 .container.right-panel-active .overlay {
-  	transform: translateX(50%);
+	transform: translateX(50%);
+	background: #eff8ff;
+	background: -webkit-linear-gradient(to right, #F3FB26, #fff76a);
+	background: linear-gradient(to right, #fc5a03, white);
 }
 
 .overlay-panel {

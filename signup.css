@@ -2,7 +2,6 @@
     margin-top: 25px;
     display: block;
 }
-
 .signup_container{
     margin: auto;
     margin-top: 80px;
@@ -10,7 +9,17 @@
 }
 .signup_post{
     padding: 15px;
-    background-color: white;
+    /*background-color: #f9f7cf;*/
+    background-color: #1dffe9;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.signup_post1{
+    padding: 15px;
+    /*background-color: #eaffd0;
+    background-color: #EB6A71;
+    /*background-color: #D96A71;*/
+    background-color: #fff76a;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -31,9 +40,30 @@
 button{
     margin-top: 15px;
 }
+button:hover{
+    color: black;
+    font-weight: bold;
+    background: white;
+}
 #dd{
     margin-left: 15px;
     width: 60%;
+    background-color: #eee;
 }
-
+input:focus{
+    background: white;
+}
+button{
+    background-color: #056664;
+}
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.head_label{
+    margin-top: 10px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+}
 

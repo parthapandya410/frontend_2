@@ -1,7 +1,5 @@
-
-    // SUBMIT FORM
-    var formData;
-    $("#signup_post").submit(function(event) {
+var formData;
+    $("#signup_post1").submit(function(event) {
         // Prevent the form from submitting via the browser.
         event.preventDefault();
         ajaxPost();
@@ -11,12 +9,14 @@
 
         // PREPARE FORM DATA
         formData = {
-            username : $("#name").val(),
-            email : $("#email").val(),
-            password : $("#password").val(),
-            role : $("#role").val(),
-            unique_id : $("#reg_no").val(),
-            address : $("#address").val(),
+            //user : $("select").val(),
+            desc : $("#g_desc").val(),
+            name : $("#g_name").val(),
+            min_amnt : $("#min_amt").val(),
+            max_amnt : $("#max_amt").val(),
+            activation : $("#a_date").val(),
+            deactivation : $('#da_date').val(),
+
            // repass : $("repass").val()
         }; 
 
@@ -31,14 +31,13 @@
         $.ajax({
             type : "POST",
             contentType : "application/json",
-            url : "/School",
+            url : "/grant",
             data : json,
             //dataType : 'json',
             error : function(e) {
-                alert("Error !")
+                alert("This Grant is already exist in database !")
                 console.log("ERROR: ", e);
             }
         });
 
     }
-
